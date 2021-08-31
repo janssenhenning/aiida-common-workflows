@@ -213,7 +213,6 @@ class FleurCommonRelaxInputGenerator(CommonRelaxInputGenerator):
                 'forcemix': 'straight'
             },
             'use_relax_xml': True,
-            'serial': False,
             'mode': relaxation_mode,
         }
         protocol_scf_para = protocol.get('scf', {})
